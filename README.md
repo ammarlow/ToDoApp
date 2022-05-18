@@ -6,5 +6,13 @@ ToDoApp
 4) create database named 'todolist'
 5) run php artisan migrate
 6) done!
-7) API User::sanctum = url/api/user
-8) API Todo = url(/api/todo)
+
+API:
+
+1) Run postman laravel.test/api/todos
+2) Get the json data
+3) Run npm install
+4) Run npm run dev
+5) goto laravel.test/apiTodo to see the API
+
+*laravel.test = url()
