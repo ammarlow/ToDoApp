@@ -41,3 +41,5 @@ Route::post('/store-image',[App\Http\Controllers\ImageUploadController::class,'s
 //For showing an image
 Route::get('/viewImage',[App\Http\Controllers\ImageUploadController::class,'viewImage'])->name('viewImage');
 
+Route::view('/apiTodo', 'apiTodo');
+
